@@ -6,7 +6,8 @@
 .pink {
     background: rgba(167, 33, 98, 0.1)
 }
-.red-color{
+
+.red-color {
     color: red;
 }
 
@@ -102,13 +103,13 @@ body {
     margin: 10px;
 }
 
-.tree-box-img{
+.tree-box-img {
     padding-top: 20px;
     margin-top: 20px;
 }
 
 /* Discount section here */
-.discount-container{
+.discount-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -118,6 +119,21 @@ body {
 }
 
 
-.btn-discount{
+.btn-discount {
     margin-top: 15px;
+}
+
+/* Instagram image are here */
+.instagram-img-container {
+
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 240px;
+}
+
+.insta-box {
+    width: 342px;
+    height: 396px;
+    margin: 5px;
+   
 }
