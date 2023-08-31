@@ -135,5 +135,25 @@ body {
     width: 342px;
     height: 396px;
     margin: 5px;
-   
+}
+
+.best-deals {   
+    margin: 20px;
+
+}
+
+.best-deal-banner{
+    width: 1440px;
+    height: 449px;
+    background-image: url("../Flower\ Asset/Rectangle 9.png"), linear-gradient(45deg, rgb(10, 10, 10), #000);
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-left: 100px; 
+}
+
+
+.inputtext{
+    height: 50px;
+    width: 300px;
+    text-align: center;
 }
