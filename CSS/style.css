@@ -1,0 +1,97 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.pink{
+    background: rgba(167, 33, 98, 0.1)
+}
+.semi-sky-blue{
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.yellow-water-color{
+    background: rgba(71, 125, 17, 0.15);
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.banner {
+    width: 100%;
+    height: 650px;
+    display: flex;
+    justify-content: space-around;
+    background: rgba(229, 84, 115, 0.10);
+    align-items: center;
+
+}
+
+.banner-content {}
+
+.banner-img {
+    width: 350px;
+    height: 350px;
+    padding: 10px;
+
+}
+
+.banner-headline {
+    color: #272727;
+    font-family: Lato;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.banner-info {
+    margin-top: 10px;
+    color: rgba(39, 39, 39, 0.60);
+}
+
+.btn {
+    color: #FFF;
+    font-size: 20px;
+    border-radius: 2px;
+    background: #E55473;
+    font-weight: 700;
+    width: 150px;
+    height: 50px;
+    margin-top: 10px;
+
+}
+
+/* Our featured flowers */
+
+.featured {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.featured-headline {
+    font-size: 40px;
+    font-style: normal;
+}
+
+.featured-info {
+    color: rgba(39, 39, 39, 0.60);
+}
+
+/* Our Featured box */
+
+.tree-boxes-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 240px;
+    text-align: center;
+}
+
+.tree-box {
+    width: 464px;
+    height: 500px;
+    display: block;
+    padding: 10px;
+    border-radius: 300px 300px 0px 0px;
+    margin: 10px;
+}
