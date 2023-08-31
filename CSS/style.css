@@ -2,14 +2,19 @@
     margin: 0px;
     padding: 0px;
 }
-.pink{
+
+.pink {
     background: rgba(167, 33, 98, 0.1)
 }
-.semi-sky-blue{
+.red-color{
+    color: red;
+}
+
+.semi-sky-blue {
     background: rgba(5, 151, 160, 0.15);
 }
 
-.yellow-water-color{
+.yellow-water-color {
     background: rgba(71, 125, 17, 0.15);
 }
 
@@ -67,6 +72,7 @@ body {
 .featured {
     padding-top: 30px;
     text-align: center;
+    margin: 20px 10px;
 }
 
 .featured-headline {
@@ -94,4 +100,24 @@ body {
     padding: 10px;
     border-radius: 300px 300px 0px 0px;
     margin: 10px;
+}
+
+.tree-box-img{
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+/* Discount section here */
+.discount-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    height: 620px;
+    background: rgba(229, 84, 115, 0.05);
+}
+
+
+.btn-discount{
+    margin-top: 15px;
 }
